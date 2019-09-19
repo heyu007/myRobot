@@ -23,7 +23,7 @@ weather = ['天气', 'weather', '今天的天气', '气温', '气候', 'tq', 'w'
 
 # 当前时间
 def answer(answeres):
-    print('\n老王：' + answeres[random.randint(0, len(answeres) - 1)] + '\n')
+    print('\n菲菲：' + answeres[random.randint(0, len(answeres) - 1)] + '\n')
 
 
 # 阿里云 天气预报接口
@@ -58,7 +58,7 @@ def qingyunke(keywords):
 # 最近热门各大网站头条
 
 while True:
-    print('\n 小菲菲：欢迎您回来！来和我聊天吧 \n')
+    # print('\n 小菲菲：欢迎您回来！来和我聊天吧 \n')
     ask = input('\n我说:')
     if ask and ask == 'heyu':
         print('\n 爸爸，你来了啊，菲菲可想你了，么么哒！\n')
